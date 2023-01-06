@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tp-dock"
+version = "0.1.0"
+description = "TP docking"
+authors = ["Zackarie Vinckier <z.vinckier@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tp_dock"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+biopandas = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
